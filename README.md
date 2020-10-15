@@ -5,7 +5,7 @@ Home: https://github.com/arogozhnikov/einops
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A new flavour of deep learning operations.
 

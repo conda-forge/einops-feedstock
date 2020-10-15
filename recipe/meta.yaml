@@ -1,18 +1,18 @@
 {% set name = "einops" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
-  url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 165ee28bcb60e5c2cbb801b5c78e181548ff8daa7c8fcabae5b251e55f7fe614
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: a3b0935a4556f012cd5fa1851373f63366890a3f6698d117afea55fd2a40c1fc
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -27,16 +27,16 @@ test:
     - einops.layers
 
 about:
-  home: "https://github.com/arogozhnikov/einops"
+  home: https://github.com/arogozhnikov/einops
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "A new flavour of deep learning operations."
+  summary: A new flavour of deep learning operations.
   description: |
     Flexible and powerful tensor operations for readable and reliable code.
     Supports numpy, pytorch, tensorflow, and others.
-  doc_url: "https://github.com/arogozhnikov/einops"
-  dev_url: "https://github.com/arogozhnikov/einops"
+  doc_url: https://github.com/arogozhnikov/einops
+  dev_url: https://github.com/arogozhnikov/einops
 
 extra:
   recipe-maintainers:
