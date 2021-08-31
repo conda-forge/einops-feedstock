@@ -1,5 +1,5 @@
 {% set name = "einops" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a3b0935a4556f012cd5fa1851373f63366890a3f6698d117afea55fd2a40c1fc
+  sha256: 5200e413539f0377f4177ef00dc019968f4177c49b1db3e836c7883df2a5fe2e
 
 build:
   noarch: python
