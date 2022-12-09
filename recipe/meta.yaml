@@ -26,6 +26,10 @@ test:
   imports:
     - einops
     - einops.layers
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/arogozhnikov/einops
