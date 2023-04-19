@@ -1,11 +1,11 @@
-About einops
-============
+About einops-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/einops-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/arogozhnikov/einops
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/einops-feedstock/blob/main/LICENSE.txt)
 
 Summary: A new flavour of deep learning operations.
 
@@ -152,4 +152,5 @@ Feedstock Maintainers
 =====================
 
 * [@asford](https://github.com/asford/)
+* [@maresb](https://github.com/maresb/)
 
