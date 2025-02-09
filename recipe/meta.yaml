@@ -1,5 +1,5 @@
 {% set name = "einops" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 63486517fed345712a8385c100cb279108d9d47e6ae59099b07657e983deae85
+  sha256: de5d960a7a761225532e0f1959e5315ebeafc0cd43394732f103ca44b9837e84
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
